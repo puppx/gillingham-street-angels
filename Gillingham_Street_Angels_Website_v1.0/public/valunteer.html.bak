@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volunteer</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html" class="active">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./support.html">Support</a>
+      <a href="./valunteer.html">Valunteer</a>
+      <a href="./picture.html">Picture</a>
+      <a href="javascript:void(0);" class="icon" onclick="NavBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <h2>Volunteering with Gillingham Street Angels</h2>
+    <br />
+    <p style="font-size: 30px;">Our volunteers are at the heart of everything we do</p>
+    <br />
+    <h4>Warehouse & Sorting Volunteers</h4>
+    <p>
+      Are you feeling strong, like to be active, we are looking for volunteers
+      to also join our team at our storage unit, not only to sort through
+      donations dropped in or collected but to keep items organised in the
+      warehouse.
+    </p>
+    <br />
+    <h4>Cafe Volunteers</h4>
+    <p>
+      We are currently looking for volunteers to cook, serve and help with
+      general kitchen duties, experience not essential but would be an advantage
+      in working in a fast paced environment as we can get quite busy, we are
+      mainly looking for people to cover a few hours on Saturday and Sunday at
+      present, however other shifts on weekdays do become available.
+    </p>
+    <br />
+    <h4>Foodbank Distribution Volunteers</h4>
+    <p>
+      We are always looking for volunteers at our Gillingham Hub to help with
+      our food parcel distribution. Experience not essential but would be
+      preferred.
+    </p>
+    <br>
+    <a href="./assets/PDF_Local_Food_Support/Local_Food_Support.pdf">PDF - Local Food Suppor</a>
+    <br>
+    <br>
+    <h4>All of our roles are fast paced and do require commitment, they are not easy roles but they are very rewarding ones.</h4>
+    <br>
+    <a href="./assets/PDF_Volunteer_Applicaton_Form_2025/GSA-New-Volunteer-Application-Form-2025.pdf" target="_blank">PDF - Volunteer Application Form</a>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

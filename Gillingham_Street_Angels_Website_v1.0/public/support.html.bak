@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Support</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html" class="active">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./support.html">Support</a>
+      <a href="./valunteer.html">Valunteer</a>
+      <a href="./picture.html">Picture</a>
+      <a href="javascript:void(0);" class="icon" onclick="NavBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <h2>Donating to Gillingham Street Angels</h2>
+    <br />
+    <p>
+      Our support is a lifeline for thousands of people in our community and
+      surrounding areas, their families and pets. In these unprecedented times
+      the Gillingham Street Angels are working hard to support the most
+      vulnerable in our society, from our homeless, our young through to our
+      older generation including pets, those who suffer from social isolation,
+      or those who are simply overwhelmed by the challenges associated with the
+      Covid-19 pandemic. We can only continue to provide these services with
+      your help. Whether it’s a one-off donation or a regular gift, no donation
+      is too small to make a difference, so please donate today.
+    </p>
+    <br />
+    <h2>Help us be there for more animals</h2>
+    <br />
+    <p>
+      We do everything we can to alleviate animal suffering or end up in rescue
+      centres because families find that they can no longer afford to keep their
+      beloved pet due to food costs or health care, we cannot support this
+      alone. It’s the generosity of supporters like you who make it possible.
+      You need to know that we strongly appreciate your support to, protect and
+      care for animals in need.F
+    </p>
+    <br />
+    <h2>How your donations help</h2>
+    <br />
+    <p>
+      We provide support with food (for pets as well) and household goods for
+      members of the Medway community, and surrounding areas. By making a
+      donation, you’re helping us to help those in need within our community and
+      further afield. We hope to reduce waste as much as possible and see
+      everything distributed and re-used, to help people who may not have
+      essential items like beds, storage for clothes, or a table to eat dinner
+      from. There are a few decorative bits too, to cheer up your space as
+      mental health means such a lot to us.
+    </p>
+    <br />
+    <h2>Other ways to give</h2>
+    <br />
+    <h4>By text</h4>
+    <br />
+    <p>
+      To donate £1 text HELP2HELP1 to 70085* To donate £2 text HELP2HELP2 to
+      70085*
+    </p>
+    <br />
+    <p>
+      To donate £5 text HELP2HELP5 to 70085* To donate £10 text HELP2HELP10 to
+      70085**
+    </p>
+    <br />
+    <p>
+      Texts cost £1, £2, £5, or £10 plus one standard network rate message . If
+      you make a donation and gift aid it you can increase your donation by 25%
+      at no extra cost to you.
+    </p>
+    <br />
+    <h2>GoFund Page</h2>
+    <br />
+    <p>
+      You can donate via our:
+      <a href="https://www.gofundme.com/f/wdxawj-street-angels" target="_blank"
+        >GoFund Page</a
+      >
+    </p>
+    <br />
+    <h2>PayPal Donate</h2>
+    <br />
+    <p>Ask about a PayPal Donate option</p>
+    <br />
+    <h2>Charity Aid Foundation</h2>
+    <br />
+    <p>
+      Or via our
+      <a
+        href="https://cafdonate.cafonline.org/17208#!/DonationDetails"
+        target="_blank"
+        >Charity Aid Foundation donation account</a
+      >
+    </p>
+    <br />
+    <h4>Or just Donate by phone</h4>
+    <a href="tel:07437825923">07437 825 923</a>
+    <br />
+    <p>Ask about our Amazon wish list</p>
+    <br />
+    <h4>Business Ways You Can Donate</h4>
+    <br />
+    <p>
+      If you are a Business that would like to support us, you can offset any
+      tax you need to pay, but doing ‘charitable giving’, speak to your
+      accountant or ask us for more information.
+    </p>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

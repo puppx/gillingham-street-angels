@@ -1,0 +1,798 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+  --primary-color: #0e71b8;
+  --secondary-color: #f5a623;
+  --accent-color: #04AA6D;
+  --text-color: #333;
+  --text-light: #f2f2f2;
+  --bg-color: #ffffff;
+  --bg-light: #f8f9fa;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --border-radius: 8px;
+  --transition: all 0.3s ease;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  color: var(--text-color);
+  background-color: var(--bg-light);
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 24px;
+  background-color: var(--accent-color);
+  color: white;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  font-weight: 500;
+  transition: var(--transition);
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #038f5a;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+/* Header and Nav */
+header {
+  background-color: white;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+}
+
+.nav-links a:hover {
+  background-color: var(--bg-light);
+  color: var(--primary-color);
+}
+
+.nav-links a.active {
+  background-color: var(--accent-color);
+  color: white;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(14, 113, 184, 0.8), rgba(14, 113, 184, 0.8)), 
+              url('../assets/IMAGES_Gillingham_Street_Angels/image_1.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.hero .tagline {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Announcement */
+.announcement {
+  padding: 40px 0;
+}
+
+.card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/* Featured Section */
+.featured {
+  padding: 60px 0;
+  background-color: white;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.featured-image img {
+  width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.text-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.text-content p {
+  margin-bottom: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 60px 0 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-links h3, .footer-contact h3 {
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  transition: var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--secondary-color);
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 1.5rem;
+  transition: var(--transition);
+}
+
+.social-icons a:hover {
+  color: var(--secondary-color);
+  transform: translateY(-3px);
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* About Page Styles */
+.about-hero {
+  background: linear-gradient(rgba(14, 113, 184, 0.8), rgba(14, 113, 184, 0.8)), 
+              url('../assets/IMAGES_Gillingham_Street_Angels/image_3.png');
+}
+
+.about-section, .vision-section, .mission-section {
+  padding: 50px 0;
+}
+
+.vision-section {
+  background-color: var(--bg-light);
+}
+
+.two-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.section-image {
+  width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.mission-list {
+  margin-top: 20px;
+}
+
+.mission-list ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+.mission-list li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.mission-list li i {
+  color: var(--accent-color);
+  margin-right: 10px;
+  font-size: 1.2rem;
+  margin-top: 2px;
+}
+
+/* Contact Page Styles */
+.contact-hero {
+  background: linear-gradient(rgba(14, 113, 184, 0.8), rgba(14, 113, 184, 0.8)), 
+              url('../assets/IMAGES_Gillingham_Street_Angels/image_4.png');
+}
+
+.contact-section {
+  padding: 40px 0;
+}
+
+.locations-section {
+  padding: 40px 0;
+  background-color: var(--bg-light);
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.contact-item i {
+  color: var(--primary-color);
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.contact-item h2 {
+  margin-bottom: 5px;
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
+
+.contact-item p {
+  margin-bottom: 0;
+}
+
+.contact-item a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.contact-item a:hover {
+  color: var(--accent-color);
+}
+
+.locations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.location-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 25px;
+  display: flex;
+  gap: 15px;
+  transition: var(--transition);
+}
+
+.location-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.location-icon {
+  color: var(--accent-color);
+  font-size: 2rem;
+}
+
+.location-details h3 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.location-details p {
+  margin-bottom: 5px;
+}
+
+.location-details a {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.location-details a:hover {
+  color: var(--accent-color);
+}
+
+.map-section {
+  padding: 40px 0 60px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  border-radius: var(--border-radius);
+}
+
+/* Support Page Styles */
+.support-hero {
+  background: linear-gradient(rgba(14, 113, 184, 0.8), rgba(14, 113, 184, 0.8)), 
+              url('../assets/IMAGES_Gillingham_Street_Angels/image_6.png');
+}
+
+.support-intro, .impact-section, .business-support {
+  padding: 40px 0;
+}
+
+.support-section {
+  padding: 50px 0;
+  background-color: var(--bg-light);
+}
+
+.donation-options {
+  padding: 50px 0;
+  background-color: white;
+}
+
+.donation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.donation-card {
+  background-color: var(--bg-light);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 25px;
+  transition: var(--transition);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.donation-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.donation-icon {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.donation-details h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.donation-details ul {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.donation-details li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+  position: relative;
+}
+
+.donation-details li:before {
+  content: "•";
+  color: var(--accent-color);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+.donation-link, .phone-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.donation-link:hover, .phone-link:hover {
+  color: var(--accent-color);
+}
+
+.donation-note {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 15px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btn-secondary {
+  background-color: var(--primary-color);
+}
+
+.btn-secondary:hover {
+  background-color: #0a5a93;
+}
+
+/* Volunteer Page Styles */
+.volunteer-hero {
+  background: linear-gradient(rgba(14, 113, 184, 0.8), rgba(14, 113, 184, 0.8)), 
+              url('../assets/IMAGES_Gillingham_Street_Angels/image_7.png');
+}
+
+.volunteer-intro {
+  padding: 40px 0;
+}
+
+.lead-text {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.volunteer-opportunities {
+  padding: 50px 0;
+  background-color: var(--bg-light);
+}
+
+.volunteer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.role-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 25px;
+  transition: var(--transition);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.role-icon {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.role-details h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.role-details p {
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.document-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+  transition: var(--transition);
+  margin-top: auto;
+}
+
+.document-link:hover {
+  color: var(--accent-color);
+}
+
+.document-link i {
+  font-size: 1.2rem;
+}
+
+.application-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.application-cta {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.application-cta h2 {
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+
+.application-cta p {
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}
+
+/* Gallery Page Styles */
+.gallery-hero {
+  background: linear-gradient(rgba(14, 113, 184, 0.8), rgba(14, 113, 184, 0.8)), 
+              url('../assets/IMAGES_Gillingham_Street_Angels/image_8.png');
+}
+
+.gallery-intro {
+  padding: 40px 0;
+}
+
+.gallery-section {
+  padding: 40px 0;
+  background-color: var(--bg-light);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  aspect-ratio: 4/3;
+}
+
+.gallery-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.05);
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(transparent, rgba(0,0,0,0.7));
+  color: white;
+  padding: 15px;
+  transform: translateY(100%);
+  transition: var(--transition);
+  opacity: 0;
+}
+
+.gallery-item:hover .gallery-caption {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.lightbox.active {
+  display: flex;
+}
+
+.lightbox-content {
+  max-width: 90%;
+  max-height: 80vh;
+  position: relative;
+}
+
+.lightbox-content img {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: var(--border-radius);
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: var(--shadow);
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+  }
+  
+  .nav-links a {
+    display: block;
+    padding: 12px;
+  }
+  
+  .menu-toggle {
+    display: block;
+  }
+  
+  .nav-links.show {
+    display: flex;
+  }
+  
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .footer-content {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  
+  .two-column {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .text-content h2 {
+    font-size: 1.5rem;
+  }
+}

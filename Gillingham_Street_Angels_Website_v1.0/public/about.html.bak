@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="./index.html" class="active">Home</a>
+      <a href="./about.html">About</a>
+      <a href="./contact.html">Contact</a>
+      <a href="./support.html">Support</a>
+      <a href="./valunteer.html">Valunteer</a>
+      <a href="./picture.html">Picture</a>
+      <a href="javascript:void(0);" class="icon" onclick="NavBar()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <h2>About Gillingham Street Angels</h2>
+    <br />
+    <p>
+      Gillingham Street Angels are local people bringing communities & people
+      together to address homelessness, financial hardship & food poverty, no
+      matter the reason.
+    </p>
+    <br />
+    <p>
+      Originally founded in 2018 Gillingham Street Angels are a small grassroots
+      charity that supports local people experiencing homelessness, financial
+      hardship and food poverty across Medway!
+    </p>
+    <br />
+    <h2>Gillingham Street Angels Vision</h2>
+    <br />
+    <p>
+      Our vision, whilst challenging, is simple; we support anyone living in
+      Medway whose lives have been impacted by Homelessness, Financial Hardship
+      and Food Poverty.
+    </p>
+    <br />
+    <p>
+      We work with local communities and volunteers to deliver a holistic
+      approach to the wellness support and services we offer. We simultaneously
+      address the physical, mental, emotional, social, and spiritual components
+      of the people we supports health with the view to enabling them to live
+      better quality and longer lives.​
+      <a href="./assets/PDF_Amended_Impact_Report/Amended_Impact_Report.pdf"
+        >Click here to read about how your support has helped hundreds of
+        homeless people each week.</a
+      >
+    </p>
+    <br />
+    <h2>Gillingham Street Angels Mission</h2>
+    <br />
+    <p>
+      We understand that navigating the healthcare system can sometimes be
+      overwhelming and we are proud to offer a holistic approach when delivering
+      our wellbeing support and wherever possible we aim to provide as much of
+      these as a one-stop-shop for a range of needs.
+    </p>
+    <br />
+    <ul>
+      <li>
+        Our mission is to deliver this support to those in our communities that
+        are vulnerable, isolated, lonely and in need through:
+      </li>
+      <li>Raising awareness on important local concerns,</li>
+      <li>
+        Reducing health inequalities through enabling people to make healthier
+        lifestyle choices,
+      </li>
+      <li>
+        Programme of health & wellbeing support delivered via our primarily
+        volunteer-led range of support and services.
+      </li>
+      <li>
+        Providing a programme of social activities that people can feel hopeful
+        about and look forward to.
+      </li>
+      <li>
+        We aim to make accessing community activities and health and wellbeing
+        services and appointments as ‘stress-free’ as possible for the people we
+        help.
+      </li>
+      <li>
+        Offering meaningful opportunities to connect with others and volunteer
+        opportunities to help those who are vulnerable, isolated and in need.
+      </li>
+    </ul>
+    <script src="./js/script.js"></script>
+  </body>
+</html>

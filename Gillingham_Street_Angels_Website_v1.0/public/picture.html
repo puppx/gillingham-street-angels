@@ -1,0 +1,208 @@
+<!-- filepath: /home/puppx/Desktop/Gillingham_Street_Angels_Website_v1.0/public/picture.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gillingham Street Angels | Gallery</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <meta name="description" content="Photo Gallery - See the impact of Gillingham Street Angels in our community">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar" id="myTopnav">
+        <div class="container">
+          <div class="logo">
+            <a href="./index.html">
+              <img
+                src="./assets/IMAGES_Gillingham_Street_Angels/logo/Gillingham-Street-AngelsV2-300x212.png"
+                alt="Gillingham Street Angels Logo"
+              />
+            </a>
+          </div>
+          <div class="nav-links">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About</a>
+            <a href="./contact.html">Contact</a>
+            <a href="./support.html">Support</a>
+            <a href="./valunteer.html">Volunteer</a>
+            <a href="./picture.html" class="active">Gallery</a>
+          </div>
+          <button class="menu-toggle" onclick="NavBar()">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero gallery-hero">
+        <div class="container">
+          <h1>Our Photo Gallery</h1>
+          <p class="tagline">Capturing moments from our work in the community</p>
+        </div>
+      </section>
+
+      <section class="gallery-intro">
+        <div class="container">
+          <div class="card">
+            <h2>Gillingham Street Angels in Action</h2>
+            <p>
+              Browse through our photo gallery to see the impact we're making in our community. These images showcase our 
+              team of volunteers, events, and the various ways we support vulnerable people throughout Medway.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <div class="container">
+          <div class="gallery-grid">
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_2.png" alt="Gillingham Street Angels community work" loading="lazy">
+              <div class="gallery-caption">Community support activities</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_3.png" alt="Gillingham Street Angels volunteers" loading="lazy">
+              <div class="gallery-caption">Our dedicated volunteer team</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_4.png" alt="Food distribution by Gillingham Street Angels" loading="lazy">
+              <div class="gallery-caption">Food distribution program</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_5.png" alt="Gillingham Street Angels animal support" loading="lazy">
+              <div class="gallery-caption">Supporting animals in need</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_6.png" alt="Gillingham Street Angels donation drive" loading="lazy">
+              <div class="gallery-caption">Collection of donations</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_7.png" alt="Gillingham Street Angels volunteer training" loading="lazy">
+              <div class="gallery-caption">Volunteer training day</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_8.png" alt="Charity shop run by Gillingham Street Angels" loading="lazy">
+              <div class="gallery-caption">Our charity shop in action</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_9.png" alt="Community event by Gillingham Street Angels" loading="lazy">
+              <div class="gallery-caption">Community celebration event</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_10.png" alt="Food preparation by Gillingham Street Angels volunteers" loading="lazy">
+              <div class="gallery-caption">Preparing meals for those in need</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_11.png" alt="Outreach activities by Gillingham Street Angels" loading="lazy">
+              <div class="gallery-caption">Outreach program in action</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_12.png" alt="Support services by Gillingham Street Angels" loading="lazy">
+              <div class="gallery-caption">Providing essential services</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_13.png" alt="Community gathering by Gillingham Street Angels" loading="lazy">
+              <div class="gallery-caption">Community support meeting</div>
+            </div>
+            <div class="gallery-item">
+              <img src="./assets/IMAGES_Gillingham_Street_Angels/image_14.png" alt="Team of Gillingham Street Angels volunteers" loading="lazy">
+              <div class="gallery-caption">Our amazing volunteer team</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+          <button class="lightbox-close" onclick="closeLightbox()">
+            <i class="fas fa-times"></i>
+          </button>
+          <img id="lightbox-img" src="" alt="Enlarged gallery image">
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img
+              src="./assets/IMAGES_Gillingham_Street_Angels/logo/Gillingham-Street-AngelsV2-300x212.png"
+              alt="Gillingham Street Angels Logo"
+              width="150"
+            />
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+              <li><a href="./support.html">Support</a></li>
+            </ul>
+          </div>
+          <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@thestreet-angels.org.uk</p>
+            <div class="social-icons">
+              <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; 2025 Gillingham Street Angels. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+    <script>
+      // Gallery lightbox functionality
+      const galleryItems = document.querySelectorAll('.gallery-item');
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      
+      galleryItems.forEach(item => {
+        item.addEventListener('click', () => {
+          const imgSrc = item.querySelector('img').src;
+          const imgAlt = item.querySelector('img').alt;
+          
+          lightboxImg.src = imgSrc;
+          lightboxImg.alt = imgAlt;
+          lightbox.classList.add('active');
+          
+          // Prevent scrolling when lightbox is active
+          document.body.style.overflow = 'hidden';
+        });
+      });
+      
+      function closeLightbox() {
+        lightbox.classList.remove('active');
+        // Re-enable scrolling
+        document.body.style.overflow = 'auto';
+      }
+      
+      // Close lightbox when clicking outside the image
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+          closeLightbox();
+        }
+      });
+      
+      // Close lightbox with escape key
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && lightbox.classList.contains('active')) {
+          closeLightbox();
+        }
+      });
+    </script>
+  </body>
+</html>
